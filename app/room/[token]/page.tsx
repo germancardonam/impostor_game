@@ -308,7 +308,7 @@ export default function RoomPage() {
 
             <div className="relative w-full max-w-sm flex flex-col min-h-full">
                 <header className="w-full flex items-center justify-between mb-12 animate-in fade-in slide-in-from-top-4 duration-700">
-                    <span className="text-4xl font-black italic tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">IMPOSTOR</span>
+                    <span className="text-2xl md:text-3xl font-black italic tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">IMPOSTOR</span>
                     <div className="rounded-2xl bg-white/5 px-4 py-2.5 border border-white/10 flex items-center gap-3 backdrop-blur-xl group">
                         <Key className="h-4 w-4 text-primary/30 group-hover:text-secondary transition-colors" />
                         <span className="font-mono font-black tracking-widest text-primary/80 uppercase text-sm leading-none pt-0.5">{token}</span>
@@ -325,19 +325,19 @@ export default function RoomPage() {
                             <Sparkles className="w-6 h-6 text-white" />
                         </div>
                     </div>
-                    <h1 className="text-5xl font-black tracking-tighter mb-4 leading-tight uppercase italic drop-shadow-2xl">Esperando...</h1>
+                    <h1 className="text-3xl md:text-4xl font-black tracking-tighter mb-4 leading-tight uppercase italic drop-shadow-2xl">Esperando...</h1>
                     <p className="text-primary/30 font-bold text-lg leading-relaxed">Envía el token a los demás agentes para infiltrarse</p>
                 </div>
 
                 <div className="bg-muted/30 rounded-[3.5rem] p-10 border border-white/5 backdrop-blur-3xl shadow-[0_48px_80px_-24px_rgba(0,0,0,0.6)] relative overflow-hidden mb-12">
                     <div className="flex justify-between items-end mb-10 flex-wrap gap-4">
                         <div className="text-left">
-                            <h3 className="font-black text-3xl tracking-tight mb-1 uppercase italic">Estado</h3>
+                            <h3 className="font-black text-xl md:text-2xl tracking-tight mb-1 uppercase italic">Estado</h3>
                             <p className="text-[9px] font-black text-primary/20 uppercase tracking-[0.4em]">Frecuencia Infiltrada</p>
                         </div>
                         <div className="flex items-baseline gap-1 bg-white/5 px-6 py-3 rounded-[1.5rem] border border-white/10">
-                            <span className="text-5xl font-black text-secondary tabular-nums leading-none">{room?.players.length || 0}</span>
-                            <span className="text-primary/20 text-xl font-black leading-none">/ {room?.config.maxPlayers || 0}</span>
+                            <span className="text-3xl md:text-4xl font-black text-secondary tabular-nums leading-none">{room?.players.length || 0}</span>
+                            <span className="text-primary/20 text-lg font-black leading-none">/ {room?.config.maxPlayers || 0}</span>
                         </div>
                     </div>
 

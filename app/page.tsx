@@ -70,7 +70,7 @@ export default function Home() {
             <Sparkles className="w-3.5 h-3.5" />
             <span>Mobile Edition</span>
           </div>
-          <h1 className="text-7xl font-black italic tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-primary via-secondary to-accent leading-none mb-4 drop-shadow-2xl">
+          <h1 className="text-5xl md:text-6xl font-black italic tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-primary via-secondary to-accent leading-none mb-4 drop-shadow-2xl">
             IMPOSTOR
           </h1>
           <p className="text-primary/50 font-bold text-sm tracking-wide">Descubre al impostor</p>
